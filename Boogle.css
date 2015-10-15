@@ -1,0 +1,128 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    font-family: Arial;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    background: #F0F6F7;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+}
+  
+.menu ul a:hover {
+    text-decoration: underline;
+    color: #32567D;
+}
+
+span {
+    color: #78777D;
+}
+
+#login {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 330px;
+}
+
+.mid {
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    margin-top: -120px;
+    margin-left: -170px;
+    width: 50%;
+}
+
+.search {
+    position: absolute;
+    margin-left: -90px;
+}
+
+input {
+    height: 35px;
+    width: 500px;
+    text-align: center;
+}
+
+.gumbi {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.gumbi button {
+    height: 35px;
+    display: inline;
+    margin-right: 5px;
+}
+
+form {
+    display: inline;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #F0F6F7;
+    height: 55px;
+}
+
+.leva_stran_spodaj {
+    float: left;
+    margin-left: -50px;
+}
+
+.leva_stran_spodaj ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.desna_stran_spodaj {
+    float: right;
+    margin-right: -5px;
+}
+
+.desna_stran_spodaj ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: #78777D;
+}
+
+.footer ul a:hover {
+    text-decoration: underline;
+    color: #32567D;
+}
